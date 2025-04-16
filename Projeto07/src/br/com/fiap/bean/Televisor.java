@@ -37,7 +37,7 @@ public class Televisor {
             System.out.println(e.getMessage());
         }
     }
-    // métodos das classe (particulares)ww
+    // métodos das classe (particulares)
     public void aumentarVolume(){
         if (volume < 20){
             volume++;
