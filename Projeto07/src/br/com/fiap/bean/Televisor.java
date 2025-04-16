@@ -11,7 +11,6 @@ public class Televisor {
     }
 
     public void setVolume(int volume) {
-        this.volume = volume;
         try {
             if (volume >= 0 && volume <= 20){
                 this.volume = volume;
@@ -28,7 +27,6 @@ public class Televisor {
     }
 
     public void setCanal(int canal) {
-        this.canal = canal;
         try {
             if (canal == 2 || canal == 4 || canal == 5 || canal == 7 || canal ==13){
                 this.canal = canal;
